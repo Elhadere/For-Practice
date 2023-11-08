@@ -3,9 +3,8 @@
 
 int main(){
 using namespace std;
-
-    string questions[] = {"1. What year C++ was created ? ",
-                          "2. Who invented C++ ?",
+    
+    string questions[] = {"1. What year C++ was created ? ", "2. Who invented C++ ?",
                           "3. What is the predecessor  of C++ ?"};
 
     string answers[][4] = {{"A. 1985", "B. 1970", "C. 1985", "D. 1975"}, 

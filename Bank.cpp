@@ -31,11 +31,11 @@ double deposit(){
     }
 }
 int main(){
-    double balance = 0;
+    double balance = 100;
     int choice;
     do
     {
-        cout << "****** Bank System ******\n";
+    std ::cout << "****** Bank System ******\n";
     cout << " 1.Your balance \n";
     cout << " 2.Deposit money \n";
     cout << " 3.withraw money\n";
@@ -54,8 +54,10 @@ int main(){
             break;
     case 4: cout << "thanks for visiting !! \n";
             cout << "************************************* \n";
+            break;
     default:
-        break;
+            cout << "Please enter a valid number\n";
+            break;
     }
 
     } while (choice != 4);
